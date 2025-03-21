@@ -1,6 +1,7 @@
 plugins {
-    alias(libs.plugins.android.application)
+    id("com.android.application")
 }
+
 
 android {
     namespace = "com.example.sampleappcenterapp"
@@ -27,6 +28,7 @@ android {
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
+        
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
